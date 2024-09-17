@@ -1,12 +1,13 @@
-CREATE DATABASE Tienda;
-USE tienda;
-
-
-CREATE TABLE producto (
-idproducto INT AUTO_INCREMENT PRIMARY KEY,
-nombre VARCHAR(100),
-descripcion TEXT,
-precio DECIMAL(10, 2)
-);
-
-
+DELIMITADOR//
+PROCEDIMUENTO DE ABANDONO SI EXISTE p_insertarproductos;
+CREAR PROCEDIMIENTO p_insertarproductos
+(
+EN _nombre VARCAHR(50),
+EN _descripción VARCHAR(255),
+EN _precio decimal (6,2),
+)
+Empezar
+INSERT INTO tienda (nombre,descripcion,precios) VALORES
+(_nombre, _descripción, _precio);
+FIN//
+DELIMITADOR;
